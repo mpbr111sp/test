@@ -1,7 +1,7 @@
 
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Connection;
 
 /**
  * <p>MySQLに接続する為のユーティリティクラスです。<br>
@@ -15,7 +15,7 @@ private static String driverName = "com.mysql.jdbc.Driver";
 /**
 * データベース接続URL
 */
-private ctatic String url =
+private static String url =
 "jdbc:mysql://localhost/testdb?autoResonnect=true&useSSL=false";
 
 /**
@@ -38,4 +38,5 @@ public Connection getConnection(){
 		e.printStackTrace();
 	}
 return con ;
+}
 }

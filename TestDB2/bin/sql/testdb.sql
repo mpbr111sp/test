@@ -1,6 +1,6 @@
-drop database if exists testdb;
-create database testdb;
-use testdb;
+drop database if exists testdb_miura;
+create database testdb_miura;
+use testdb_miura;
 create table test_table(
 user_id int,
 user_name varchar(255),

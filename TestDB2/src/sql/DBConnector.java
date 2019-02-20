@@ -17,7 +17,7 @@ private static String driverName = "com.mysql.jdbc.Driver";
 * データベース接続URL
 */
 private static String url =
-"jdbc:mysql://localhost/testdb?autoResonnect=true&useSSL=false";
+"jdbc:mysql://localhost/testdb_miura?autoResonnect=true&useSSL=false";
 
 /**
  * データベース接続ユーザ名
